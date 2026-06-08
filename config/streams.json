@@ -1,0 +1,40 @@
+{
+  "youtube_streams": [
+    {
+      "channel_name": "tv_publica",
+      "stream_name": "youtube_tv_publica",
+      "link_file": "/opt/iptv/links/tv_publica.txt",
+      "display_name": "TV Publica",
+      "group": "Nacionales",
+      "logo": "http://181.209.79.77:9999/tvpublica.webp",
+      "tvg_id": "TV Publica"
+    },
+    {
+      "channel_name": "todo_noticias",
+      "stream_name": "youtube_todo_noticias",
+      "link_file": "/opt/iptv/links/todo_noticias.txt",
+      "display_name": "Todo Noticias",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/tnenvivo.webp",
+      "tvg_id": "Todo Noticias"
+    },
+    {
+      "channel_name": "canal_doce",
+      "stream_name": "youtube_canal_doce",
+      "link_file": "/opt/iptv/links/canal_doce.txt",
+      "display_name": "Canal Doce",
+      "group": "Nacionales",
+      "logo": "http://181.209.79.77:9999/eldoce.webp",
+      "tvg_id": "eldoce"
+    },
+    {
+      "channel_name": "canal_de_la_ciudad",
+      "stream_name": "youtube_canal_de_la_ciudad",
+      "link_file": "/opt/iptv/links/canal_de_la_ciudad.txt",
+      "display_name": "Canal de la Ciudad",
+      "group": "Nacionales",
+      "logo": "http://181.209.79.77:9999/canaldelaciudad.webp",
+      "tvg_id": "Canal de la Ciudad"
+    }
+  ]
+}

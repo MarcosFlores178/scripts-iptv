@@ -1,0 +1,48 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Python (Archivos compilados)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución y paquetes
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Configuración local y variables de entorno (¡Contiene contraseñas y llaves de API!)
+.env
+.venv
+.env.secrets
+
+# Editores de código y herramientas (Opcional)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+.codex/
+*.pyc
+log_cron.txt
+cookies.txt:Zone.Identifier

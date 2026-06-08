@@ -1,0 +1,46 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="Canal 13 La Rioja"tvg-name="Canal 13 La Rioja"tvg-logo="http://192.168.130.22:9999/canal13lr.webp"group-title="Locales",Canal 13 La Rioja
+http://arcast.net:1935/mp/mp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Fenix"tvg-name="Fenix"tvg-logo="http://192.168.130.22:9999/fenix.webp"group-title="Locales",Fenix
+https://stmvideo3.livecastv.com/fenixrioja/fenixrioja/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TeveOcho"tvg-name="TeveOcho"tvg-logo="http://192.168.130.22:9999/tv8.webp"group-title="Locales",TeveOcho
+https://srvchp.witel.ar:1936/live/teveocho/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Argentinisima"tvg-name="Argentinisima"tvg-logo="http://192.168.130.22:9999/argentinisima.webp"group-title="Variedades Nacionales",Argentinisima
+https://stream1.sersat.com/hls/argentinisima.m3u8
+
+#EXTINF:-1 tvg-id="Garage TV"tvg-name="Garage TV"tvg-logo="http://192.168.130.22:9999/garagetv.webp"group-title="Variedades Nacionales",Garage TV
+https://stream1.sersat.com/hls/garagetv.m3u8
+
+#EXTINF:-1 tvg-id="Telemax"tvg-name="Telemax"tvg-logo="http://192.168.130.22:9999/telemax.webp"group-title="Variedades Nacionales",Telemax
+https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+
+#EXTINF:-1 tvg-id="RT"tvg-name="RT"tvg-logo="http://192.168.130.22:9999/rt.webp"group-title="Noticias Internacionales",RT
+https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Canal E"tvg-name="Canal E"tvg-logo="http://192.168.130.22:9999/canale.webp"group-title="Noticias Internacionales",Canal E
+https://unlimited1-buenosaires.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AMC"tvg-name="AMC"tvg-logo="http://192.168.130.22:9999/amc.webp"group-title="Peliculas",AMC
+https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Estrella Games"tvg-name="Estrella Games"tvg-logo="http://192.168.130.22:9999/estrella_games.webp"group-title="Variedades Internacionales",Estrella Games
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellagames-estrellamedia/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Estrella News"tvg-name="Estrella News"tvg-logo="http://192.168.130.22:9999/estrella_news.webp"group-title="Variedades Internacionales",Estrella News
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellanews-estrellamedia/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Music Top"tvg-name="Music Top"tvg-logo="http://192.168.130.22:9999/musictop.webp"group-title="Musica",Music Top
+https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8
+
+#EXTINF:-1 tvg-id="Tierra Mia TV"tvg-name="Tierra Mia TV"tvg-logo="http://192.168.130.22:9999/tierramia.webp"group-title="Musica",Tierra Mia TV
+https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/main.m3u8
+
+#EXTINF:-1 tvg-id="Teleritmo"tvg-name="Teleritmo"tvg-logo="http://192.168.130.22:9999/teleritmo.webp"group-title="Musica",Teleritmo
+http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
+
+#EXTINF:-1 tvg-id="NetTV"tvg-name="NetTV"tvg-logo="http://192.168.130.22:9999/nettv.webp"group-title="Nacionales",NetTV
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8

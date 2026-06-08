@@ -1,0 +1,14 @@
+~~ DO NOT EDIT THE FIRST 2 LINES
+~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
+
+TV Publica| Nacionales | http://181.209.79.77:9999/tvpublica.webp | TV Publica
+https://www.youtube.com/@TVPublicaArgentina/live
+
+Todo Noticias | Noticias | http://181.209.79.77:9999/tnenvivo.webp | Todo Noticias
+https://www.youtube.com/@todonoticias/live
+
+Canal Doce | Nacionales | http://181.209.79.77:9999/eldoce.webp | eldoce
+https://www.youtube.com/@eldoce/live
+
+Canal de la Ciudad | Nacionales | http://181.209.79.77:9999/canaldelaciudad.webp | Canal de la Ciudad
+https://www.youtube.com/@canalciudadba/live
