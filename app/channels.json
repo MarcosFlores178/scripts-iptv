@@ -1,118 +1,10 @@
 {
     "channels": [
-        {
-                        "name": "tyc_sports",
-                        "type": "gigared",
-                        "group": "Deportes",
-                        "logo": "http://181.209.79.77:9999/logos/tyc_sports.webp",
-                        "tvg_id": "TyC Sports",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/TyC_Sports/sa_live_dash/TyC_Sports.mpd",
-                        "decryption_key": "0c2780acce4ef9d7334ef25be445ceb4"
-            },
-            {
-                        "name": "espn",
-                        "type": "gigared",
-                        "group": "Deportes",
-                        "logo": "http://181.209.79.77:9999/logos/espn.webp",
-                        "tvg_id": "ESPN",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/ESPN/sa_live_dash/ESPN.mpd",
-                        "decryption_key": "77f418bbcfc73739ebca9c52321472d3"
-            },
-            {
-                        "name": "espn_2",
-                        "type": "gigared",
-                        "group": "Deportes",
-                        "logo": "http://181.209.79.77:9999/logos/espn_2.webp",
-                        "tvg_id": "ESPN 2",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/ESPN2/sa_live_dash/ESPN2.mpd",
-                        "decryption_key": "a12adec960cd1e33ad3b8ddbf0dd22b9"
-            },
-            {
-                        "name": "fox_sports",
-                        "type": "gigared",
-                        "group": "Deportes",
-                        "logo": "http://181.209.79.77:9999/logos/fox_sports.webp",
-                        "tvg_id": "Fox Sports",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Fox_Sports/sa_live_dash/Fox_Sports.mpd",
-                        "decryption_key": "94d789ac388ccbbfbd2cf91d5b7db028"
-            },
-            {
-                        "name": "discovery_turbo",
-                        "type": "gigared",
-                        "group": "Documentales",
-                        "logo": "http://181.209.79.77:9999/logos/discovery_turbo.webp",
-                        "tvg_id": "Discovery Turbo",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Discovery_Turbo/sa_live_dash/Discovery_Turbo.mpd",
-                        "decryption_key": "7556d7b06fa5f94c7501c8956a764931"
-            },
-            {
-                        "name": "investigation_discovery",
-                        "type": "gigared",
-                        "group": "Documentales",
-                        "logo": "http://181.209.79.77:9999/logos/investigation_discovery.webp",
-                        "tvg_id": "Investigation Discovery",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Investigation_discovery/sa_live_dash/Investigation_discovery.mpd",
-                        "decryption_key": "64f7f672af645bd14c26f598e65ca686"
-            },
-            {
-                        "name": "discovery_science",
-                        "type": "gigared",
-                        "group": "Documentales",
-                        "logo": "http://181.209.79.77:9999/logos/discovery_science.webp",
-                        "tvg_id": "Discovery Science",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Discovery_Science/sa_live_dash/Discovery_Science.mpd",
-                        "decryption_key": "cf04154c74f09b1fd98115a9e04fcec6"
-            },
-            {
-                        "name": "discovery_channel",
-                        "type": "gigared",
-                        "group": "Documentales",
-                        "logo": "http://181.209.79.77:9999/logos/discovery_channel.webp",
-                        "tvg_id": "Discovery Channel",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Discovery_Channel/sa_live_dash/Discovery_Channel.mpd",
-                        "decryption_key": "0dbbc07185e4650e1a05dbbcb888909f"
-            },
-            {
-                        "name": "history_channel",
-                        "type": "gigared",
-                        "group": "Documentales",
-                        "logo": "http://181.209.79.77:9999/logos/history_channel.webp",
-                        "tvg_id": "History Channel",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/History_Channel/sa_live_dash/History_Channel.mpd",
-                        "decryption_key": "143a64606506c57b452bd9c8327bd6ff"
-            },
-            {
-                        "name": "disney_channel",
-                        "type": "gigared",
-                        "group": "Infantiles",
-                        "logo": "http://181.209.79.77:9999/logos/disney_channel.webp",
-                        "tvg_id": "Disney Channel",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Disney_Channel/sa_live_dash/Disney_Channel.mpd",
-                        "decryption_key": "6824ea53d6fd70d146b9e31a57cf3a20"
-            },
-            {
-                        "name": "disney_junior",
-                        "type": "gigared",
-                        "group": "Infantiles",
-                        "logo": "http://181.209.79.77:9999/logos/disney_junior.webp",
-                        "tvg_id": "Disney Junior",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Disney_Junior/sa_live_dash/Disney_Junior.mpd",
-                        "decryption_key": "490fc8a1a900893d20631da45412879d"
-            },
-            {
-                        "name": "plim_plim",
-                        "type": "gigared",
-                        "group": "Infantiles",
-                        "logo": "http://181.209.79.77:9999/logos/plim_plim.webp",
-                        "tvg_id": "Plim Plim",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Plim_Plim/sa_live_dash/Plim_Plim.mpd",
-                        "decryption_key": "f90cee2e43e02176113cff8ccf09465e"
-            },
-            {
+                        {
                         "name": "Canal 13 La Rioja",
                         "type": "static",
                         "group": "Locales",
-                        "logo": "http://181.209.79.77:9999/canal13lr.webp",
+                        "logo": "http://192.168.130.22:9999/canal13lr.webp",
                         "tvg_id": "Canal 13 La Rioja",
                         "url": "http://arcast.net:1935/mp/mp/playlist.m3u8"
             },
@@ -120,42 +12,23 @@
                         "name": "Fenix",
                         "type": "static",
                         "group": "Locales",
-                        "logo": "http://181.209.79.77:9999/fenix.webp",
+                        "logo": "http://192.168.130.22:9999/fenix.webp",
                         "tvg_id": "Fenix",
                         "url": "https://stmvideo3.livecastv.com/fenixrioja/fenixrioja/playlist.m3u8"
             },
             {
-                        "name": "cm",
-                        "type": "gigared",
-                        "group": "Musica",
-                        "logo": "http://181.209.79.77:9999/logos/cm.webp",
-                        "tvg_id": "CM",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/CM/sa_live_dash/CM.mpd",
-                        "decryption_key": "85dbe90fab4bca195924b7cb17bfc211"
-            },
-            {
-                        "name": "quiero_musica",
-                        "type": "gigared",
-                        "group": "Musica",
-                        "logo": "http://181.209.79.77:9999/logos/quiero_musica.webp",
-                        "tvg_id": "Quiero Musica",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Quiero_Musica/sa_live_dash/Quiero_Musica.mpd",
-                        "decryption_key": "defd91f23137624fec9fe157d6adc1dd"
-            },
-            {
-                        "name": "telehit_musica",
-                        "type": "gigared",
-                        "group": "Musica",
-                        "logo": "http://181.209.79.77:9999/logos/telehit_musica.webp",
-                        "tvg_id": "Telehit Musica",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Telehit_Musica/sa_live_dash/Telehit_Musica.mpd",
-                        "decryption_key": "057a34cc85e38471e2a023b78ec79175"
+                        "name": "TeveOcho",
+                        "type": "static",
+                        "group": "Locales",
+                        "logo": "http://192.168.130.22:9999/tv8.webp",
+                        "tvg_id": "TeveOcho",
+                        "url": "https://srvchp.witel.ar:1936/live/teveocho/playlist.m3u8"
             },
             {
                         "name": "Music Top",
                         "type": "static",
                         "group": "Musica",
-                        "logo": "http://181.209.79.77:9999/musictop.webp",
+                        "logo": "http://192.168.130.22:9999/musictop.webp",
                         "tvg_id": "Music Top",
                         "url": "https://stream-gtlc.telecentro.net.ar/hls/musictophls/main.m3u8"
             },
@@ -163,7 +36,7 @@
                         "name": "Tierra Mia TV",
                         "type": "static",
                         "group": "Musica",
-                        "logo": "http://181.209.79.77:9999/tierramia.webp",
+                        "logo": "http://192.168.130.22:9999/tierramia.webp",
                         "tvg_id": "Tierra Mia TV",
                         "url": "https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/main.m3u8"
             },
@@ -171,45 +44,81 @@
                         "name": "Teleritmo",
                         "type": "static",
                         "group": "Musica",
-                        "logo": "http://181.209.79.77:9999/teleritmo.webp",
+                        "logo": "http://192.168.130.22:9999/teleritmo.webp",
                         "tvg_id": "Teleritmo",
                         "url": "http://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8"
             },
             {
-                        "name": "telefe_santa_fe",
-                        "type": "gigared",
+                        "name": "NetTV",
+                        "type": "static",
                         "group": "Nacionales",
-                        "logo": "http://181.209.79.77:9999/logos/telefe_santa_fe.webp",
-                        "tvg_id": "Telefe Santa Fe",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/Telefe_Santa_Fe/sa_live_dash/Telefe_Santa_Fe.mpd",
-                        "decryption_key": "9f161558348513e5f3ed3a3a3ea2867d"
+                        "logo": "http://192.168.130.22:9999/nettv.webp",
+                        "tvg_id": "NetTV",
+                        "url": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8"
             },
             {
-                        "name": "ln_mas",
-                        "type": "gigared",
-                        "group": "Noticias",
-                        "logo": "http://181.209.79.77:9999/logos/ln_mas.webp",
-                        "tvg_id": "LN Mas",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/LNmas/sa_live_dash/LNmas.mpd",
-                        "decryption_key": "fa8d96b8c2d97390ab329241a4e651ae"
+                        "name": "Canal 13",
+                        "type": "capturadora",
+                        "group": "Nacionales",
+                        "logo": "http://192.168.130.22:9999/logos/canal_13.webp",
+                        "tvg_id": "Canal 13",
+                        "device": "/dev/video0",
+                        "audio_device": "plughw:0,0",
+                        "resolution": "1280x720",
+                        "fps": 30,
+                        "vaapi_device": "/dev/dri/renderD128",
+                        "qp": 28,
+                        "gop": 60,
+                        "audio_bitrate": "128k",
+                        "volume": 1.0
             },
             {
-                        "name": "cronica_tv",
-                        "type": "gigared",
-                        "group": "Noticias",
-                        "logo": "http://181.209.79.77:9999/logos/cronica_tv.webp",
-                        "tvg_id": "Cronica TV",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/CronicaTV/sa_live_dash/CronicaTV.mpd",
-                        "decryption_key": "57f01dd4f21f8786352399c80d36caf8"
+                        "name": "RT",
+                        "type": "static",
+                        "group": "Noticias Internacionales",
+                        "logo": "http://192.168.130.22:9999/rt.webp",
+                        "tvg_id": "RT",
+                        "url": "https://rt-esp.rttv.com/live/rtesp/playlist.m3u8"
             },
             {
-                        "name": "a24",
-                        "type": "gigared",
-                        "group": "Noticias",
-                        "logo": "http://181.209.79.77:9999/logos/a24.webp",
-                        "tvg_id": "A24",
-                        "url": "https://cdn02.gigared.com.ar/live/eds/A24/sa_live_dash/A24.mpd",
-                        "decryption_key": "4303ea7157eb2e6f6ce980bb87183825"
+                        "name": "Canal E",
+                        "type": "static",
+                        "group": "Noticias Internacionales",
+                        "logo": "http://192.168.130.22:9999/canale.webp",
+                        "tvg_id": "Canal E",
+                        "url": "https://unlimited1-buenosaires.dps.live/perfiltv/perfiltv.smil/playlist.m3u8"
+            },
+            {
+                        "name": "AMC",
+                        "type": "static",
+                        "group": "Peliculas",
+                        "logo": "http://192.168.130.22:9999/amc.webp",
+                        "tvg_id": "AMC",
+                        "url": "https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8"
+            },
+            {
+                        "name": "Argentinisima",
+                        "type": "static",
+                        "group": "Variedades Nacionales",
+                        "logo": "http://192.168.130.22:9999/argentinisima.webp",
+                        "tvg_id": "Argentinisima",
+                        "url": "https://stream1.sersat.com/hls/argentinisima.m3u8"
+            },
+            {
+                        "name": "Garage TV",
+                        "type": "static",
+                        "group": "Variedades Nacionales",
+                        "logo": "http://192.168.130.22:9999/el_garage.webp",
+                        "tvg_id": "Garage TV",
+                        "url": "https://stream1.sersat.com/hls/garagetv.m3u8"
+            },
+            {
+                        "name": "Telemax",
+                        "type": "static",
+                        "group": "Variedades Nacionales",
+                        "logo": "http://192.168.130.22:9999/telemax.webp",
+                        "tvg_id": "Telemax",
+                        "url": "https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8"
             }
-    ]
-}
+            ]
+        }

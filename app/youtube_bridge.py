@@ -59,6 +59,8 @@ class YouTubeBridge:
 
     def __init__(self):
         self.streams: Dict[str, Stream] = {}
+# Diccionario para guardar el estado: {slug: {'url': '...', 'mtime': 0}}
+        self.url_cache = {}
 
         self.load_config()
 
@@ -89,9 +91,26 @@ class YouTubeBridge:
             if not stream.link_file.exists():
                 return None
 
-            url = stream.link_file.read_text(encoding="utf-8").strip()
+            current_mtime = stream.link_file.stat().st_mtime
+        
+            # Verificar caché con expiración
+            if stream.name in self.url_cache:
+                cached = self.url_cache[stream.name]
+                cache_age = time.time() - cached.get('timestamp', 0)
+            
+                # Si el archivo no ha cambiado y la caché es reciente (< 60 segundos)
+                if cached['mtime'] == current_mtime and cache_age < 60:
+                    return cached['url']
 
-            if url.startswith(("http://", "https://", "rtmp://")):
+            # Leer archivo
+            url = stream.link_file.read_text(encoding="utf-8").strip()
+        
+            if url.startswith(("http://", "https://", "rtmp://", "rtmps://")):
+                self.url_cache[stream.name] = {
+                    'url': url, 
+                    'mtime': current_mtime,
+                    'timestamp': time.time()
+                }
                 return url
 
         except Exception as e:
@@ -113,42 +132,43 @@ class YouTubeBridge:
         except Exception:
             return False
 
-    # -------- FFMEG START --------
+   # -------- FFMEG START --------
     def start_ffmpeg(self, stream: Stream, url: str):
         rtmp_url = f"{NGINX_RTMP}/{stream.name}"
 
         cmd = [
             "ffmpeg",
             "-loglevel", "warning",
-
-            # 🔥 CRÍTICO PARA YOUTUBE HLS
             "-reconnect", "1",
             "-reconnect_streamed", "1",
             "-reconnect_at_eof", "1",
             "-reconnect_delay_max", "5",
-
             "-i", url,
-
             "-c", "copy",
             "-f", "flv",
             "-flvflags", "no_duration_filesize",
             "-rtmp_live", "live",
-
             rtmp_url
         ]
 
-        log_file = open(f"/tmp/{stream.name}.log", "a")
-
         logger.info(f"[{stream.name}] starting ffmpeg")
-
         stream.last_start_time = time.time()
 
-        return subprocess.Popen(
-            cmd,
-            stdout=subprocess.DEVNULL,
-            stderr=log_file,
-            start_new_session=True
-        )
+        # Abrimos el archivo en modo append dentro de un bloque 'with'
+        # Esto garantiza que el manejador del archivo se cierre correctamente
+        # después de que el proceso ha sido lanzado.
+        log_path = f"/tmp/{stream.name}.log"
+        with open(log_path, "a") as log_file:
+            process = subprocess.Popen(
+                cmd,
+                stdout=subprocess.DEVNULL,
+                stderr=log_file,
+                start_new_session=True
+            )
+        
+        # El archivo log_file ya está cerrado aquí automáticamente, 
+        # pero el proceso sigue ejecutándose en segundo plano.
+        return process
 
     # -------- STOP FFMEG --------
     def stop_ffmpeg(self, stream: Stream):
@@ -227,8 +247,9 @@ class YouTubeBridge:
                 stream.last_retry = now
 
                 url = self.read_url(stream)
-                if url and url != stream.failed_url:
-                    logger.info(f"[{stream.name}] recovery detected")
+                # Usar probe_url para asegurar que el link realmente funciona
+                if url and url != stream.failed_url and self.probe_url(url):
+                    logger.info(f"[{stream.name}] recovery detected and validated")
                     stream.offline_mode = False
                     stream.consecutive_failures = 0
 

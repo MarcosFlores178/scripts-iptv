@@ -13,7 +13,7 @@ BASE_DIR = "/opt/iptv/app"
 CHANNELS_DIR = os.path.join(BASE_DIR, "channels")
 CONFIG_FILE = os.path.join(BASE_DIR, "channels.json")
 
-TEMPLATE_GIGARED = """/home/estranet/.local/bin/streamlink --retry-open 5 --retry-streams 5 --stream-segment-attempts 6 --stream-segment-timeout 15 --stream-timeout 60 --ffmpeg-ffmpeg "/home/estranet/ffmpeg-current/bin/ffmpeg" --ffmpeg-fout mpegts -O --locale es_ES {key_param} "{url}" best | mbuffer -m 4M -q | ffmpeg -nostdin -hide_banner -loglevel warning -fflags +genpts+discardcorrupt+igndts -avoid_negative_ts make_zero -i pipe:0 -max_interleave_delta 10M -c copy -f hls -hls_time 2 -hls_list_size 10 -hls_delete_threshold 3 -hls_flags delete_segments+append_list+independent_segments -hls_segment_filename __SEGMENT_PATTERN__ __PLAYLIST__"""
+TEMPLATE_GIGARED = """/home/estranet/.local/bin/streamlink --retry-open 5 --retry-streams 5 --stream-segment-attempts 6 --stream-segment-timeout 15 --stream-timeout 60 --ffmpeg-ffmpeg /usr/bin/ffmpeg --ffmpeg-fout mpegts -O --locale es_ES {key_param} "{url}" best | mbuffer -m 4M -q | ffmpeg -nostdin -hide_banner -loglevel warning -fflags +genpts+discardcorrupt+igndts -avoid_negative_ts make_zero -i pipe:0 -max_interleave_delta 10M -c copy -f hls -hls_time 2 -hls_list_size 10 -hls_delete_threshold 3 -hls_flags delete_segments+append_list+independent_segments -hls_segment_filename __SEGMENT_PATTERN__ __PLAYLIST__"""
 
 TEMPLATE_CAPTURADORA = """ffmpeg -hide_banner -stats -stats_period 1 \
   -vaapi_device {vaapi_device} \

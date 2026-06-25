@@ -1,14 +1,77 @@
 #EXTM3U
 #EXT-X-VERSION:3
 
-#EXTINF:-1 tvg-id="TV Publica" tvg-logo="http://181.209.79.77:9999/tvpublica.webp" group-title="Nacionales",TV Publica
+#EXTINF:-1 tvg-id="Disney" tvg-logo="http://181.209.79.77:9999/disney.png" group-title="Infantiles",Disney
+http://192.168.130.22:8095/hls/youtube_disney.m3u8
+
+#EXTINF:-1 tvg-id="Nick Jr." tvg-logo="http://181.209.79.77:9999/nickjr.png" group-title="Infantiles",Nick Jr.
+http://192.168.130.22:8095/hls/youtube_nick_jr.m3u8
+
+#EXTINF:-1 tvg-id="Disney Jr." tvg-logo="http://181.209.79.77:9999/disneyjr.png" group-title="Infantiles",Disney Jr.
+http://192.168.130.22:8095/hls/youtube_disney_jr.m3u8
+
+#EXTINF:-1 tvg-id="Quiero Música TV" tvg-logo="http://181.209.79.77:9999/quiero-hd.png" group-title="Musica",Quiero Música TV
+http://192.168.130.22:8095/hls/youtube_quiero_musica_tv.m3u8
+
+#EXTINF:-1 tvg-id="TV Publica" tvg-logo="http://181.209.79.77:9999/tvpublica.png" group-title="Nacionales",TV Publica
 http://192.168.130.22:8095/hls/youtube_tv_publica.m3u8
 
-#EXTINF:-1 tvg-id="Todo Noticias" tvg-logo="http://181.209.79.77:9999/tnenvivo.webp" group-title="Noticias",Todo Noticias
-http://192.168.130.22:8095/hls/youtube_todo_noticias.m3u8
+#EXTINF:-1 tvg-id="Telefe Streams" tvg-logo="http://181.209.79.77:9999/telefestreams.png" group-title="Nacionales",Telefe Streams
+http://192.168.130.22:8095/hls/youtube_telefe_streams.m3u8
 
-#EXTINF:-1 tvg-id="eldoce" tvg-logo="http://181.209.79.77:9999/eldoce.webp" group-title="Nacionales",Canal Doce
+#EXTINF:-1 tvg-id="Canal 8 San Juan" tvg-logo="http://181.209.79.77:9999/canal8.png" group-title="Nacionales",Canal 8 San Juan
+http://192.168.130.22:8095/hls/youtube_canal_8_san_juan.m3u8
+
+#EXTINF:-1 tvg-id="eldoce" tvg-logo="http://181.209.79.77:9999/eldoce.png" group-title="Nacionales",Canal Doce
 http://192.168.130.22:8095/hls/youtube_canal_doce.m3u8
 
-#EXTINF:-1 tvg-id="Canal de la Ciudad" tvg-logo="http://181.209.79.77:9999/canaldelaciudad.webp" group-title="Nacionales",Canal de la Ciudad
+#EXTINF:-1 tvg-id="Canal de la Ciudad" tvg-logo="http://181.209.79.77:9999/canaldelaciudad.png" group-title="Nacionales",Canal de la Ciudad
 http://192.168.130.22:8095/hls/youtube_canal_de_la_ciudad.m3u8
+
+#EXTINF:-1 tvg-id="LA NACION" tvg-logo="http://181.209.79.77:9999/lanacionmas.png" group-title="Noticias",La Nación Más
+http://192.168.130.22:8095/hls/youtube_la_nacion_mas.m3u8
+
+#EXTINF:-1 tvg-id="CNN en Español" tvg-logo="http://181.209.79.77:9999/cnnesp.png" group-title="Noticias",CNN en Español
+http://192.168.130.22:8095/hls/youtube_cnn_en_espanol.m3u8
+
+#EXTINF:-1 tvg-id="Canal 26" tvg-logo="http://181.209.79.77:9999/canal26.png" group-title="Noticias",Canal 26
+http://192.168.130.22:8095/hls/youtube_canal_26.m3u8
+
+#EXTINF:-1 tvg-id="TELESUR" tvg-logo="http://181.209.79.77:9999/telesur.png" group-title="Noticias",TELESUR
+http://192.168.130.22:8095/hls/youtube_telesur.m3u8
+
+#EXTINF:-1 tvg-id="Todo Noticias" tvg-logo="http://181.209.79.77:9999/tnenvivo.png" group-title="Noticias",Todo Noticias
+http://192.168.130.22:8095/hls/youtube_todo_noticias.m3u8
+
+#EXTINF:-1 tvg-id="Crónica TV" tvg-logo="http://181.209.79.77:9999/cronica.png" group-title="Noticias",Crónica TV
+http://192.168.130.22:8095/hls/youtube_cronica_tv.m3u8
+
+#EXTINF:-1 tvg-id="C5N" tvg-logo="http://181.209.79.77:9999/c5n.png" group-title="Noticias",C5N
+http://192.168.130.22:8095/hls/youtube_c5n.m3u8
+
+#EXTINF:-1 tvg-id="A24com" tvg-logo="http://181.209.79.77:9999/a24.png" group-title="Noticias",A24com
+http://192.168.130.22:8095/hls/youtube_a24com.m3u8
+
+#EXTINF:-1 tvg-id="Telefe Noticias" tvg-logo="http://181.209.79.77:9999/telefenoticias.png" group-title="Noticias",Telefe Noticias
+http://192.168.130.22:8095/hls/youtube_telefe_noticias.m3u8
+
+#EXTINF:-1 tvg-id="Argentina 12" tvg-logo="http://181.209.79.77:9999/ar12.png" group-title="Noticias",Argentina 12
+http://192.168.130.22:8095/hls/youtube_argentina_12.m3u8
+
+#EXTINF:-1 tvg-id="DW Español" tvg-logo="http://181.209.79.77:9999/dw.png" group-title="Noticias Internacionales",DW Español
+http://192.168.130.22:8095/hls/youtube_dw_espanol.m3u8
+
+#EXTINF:-1 tvg-id="FRANCE 24 Español" tvg-logo="http://181.209.79.77:9999/france24.png" group-title="Noticias Internacionales",France 24 Español
+http://192.168.130.22:8095/hls/youtube_france_24_espanol.m3u8
+
+#EXTINF:-1 tvg-id="euronews (en español)" tvg-logo="http://181.209.79.77:9999/euronews.png" group-title="Noticias Internacionales",Euronews (en español)
+http://192.168.130.22:8095/hls/youtube_euronews_en_espanol.m3u8
+
+#EXTINF:-1 tvg-id="RTVE Noticias" tvg-logo="http://181.209.79.77:9999/rtve.png" group-title="Noticias Internacionales",RTVE Noticias
+http://192.168.130.22:8095/hls/youtube_rtve_noticias.m3u8
+
+#EXTINF:-1 tvg-id="24 Horas - TVN Chile" tvg-logo="http://181.209.79.77:9999/24h.png" group-title="Noticias Internacionales",TVN Chile - 24Horas
+http://192.168.130.22:8095/hls/youtube_tvn_chile_24horas.m3u8
+
+#EXTINF:-1 tvg-id="Romance  Channel" tvg-logo="http://181.209.79.77:9999/romance.png" group-title="Peliculas",Romance  Channel
+http://192.168.130.22:8095/hls/youtube_romance_channel.m3u8

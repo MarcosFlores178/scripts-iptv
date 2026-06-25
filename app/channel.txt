@@ -1,14 +1,78 @@
 ~~ DO NOT EDIT THE FIRST 2 LINES
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
-TV Publica| Nacionales | http://181.209.79.77:9999/tvpublica.webp | TV Publica
+Disney | Infantiles | http://181.209.79.77:9999/disney.png | Disney
+https://www.youtube.com/@disneychannelES/live
+
+Nick Jr. | Infantiles | http://181.209.79.77:9999/nickjr.png | Nick Jr.
+https://www.youtube.com/@NickJrEspanol/live
+
+Disney Jr. | Infantiles | http://181.209.79.77:9999/disneyjr.png | Disney Jr.
+https://www.youtube.com/@DisneyJuniorES/live
+
+Quiero Música TV | Musica | http://181.209.79.77:9999/quiero-hd.png | Quiero Música TV
+https://www.youtube.com/@quieromusicatv/live
+
+TV Publica | Nacionales | http://181.209.79.77:9999/tvpublica.png | TV Publica
 https://www.youtube.com/@TVPublicaArgentina/live
 
-Todo Noticias | Noticias | http://181.209.79.77:9999/tnenvivo.webp | Todo Noticias
-https://www.youtube.com/@todonoticias/live
+Telefe Streams | Nacionales | http://181.209.79.77:9999/telefestreams.png | Telefe Streams
+https://www.youtube.com/@Telefe/live
 
-Canal Doce | Nacionales | http://181.209.79.77:9999/eldoce.webp | eldoce
+Canal 8 San Juan | Nacionales | http://181.209.79.77:9999/canal8.png | Canal 8 San Juan
+https://www.youtube.com/@canal8sanjuan./live
+
+Canal Doce | Nacionales | http://181.209.79.77:9999/eldoce.png | eldoce
 https://www.youtube.com/@eldoce/live
 
-Canal de la Ciudad | Nacionales | http://181.209.79.77:9999/canaldelaciudad.webp | Canal de la Ciudad
+Canal de la Ciudad | Nacionales | http://181.209.79.77:9999/canaldelaciudad.png | Canal de la Ciudad
 https://www.youtube.com/@canalciudadba/live
+
+La Nación Más | Noticias | http://181.209.79.77:9999/lanacionmas.png | LA NACION
+https://www.youtube.com/@lanacion/live
+
+CNN en Español | Noticias | http://181.209.79.77:9999/cnnesp.png | CNN en Español
+https://www.youtube.com/@cnnee/live
+
+Canal 26 | Noticias | http://181.209.79.77:9999/canal26.png | Canal 26
+https://www.youtube.com/@canal26/live
+
+TELESUR | Noticias | http://181.209.79.77:9999/telesur.png | TELESUR
+https://www.youtube.com/@envivotelesur/live
+
+Todo Noticias | Noticias | http://181.209.79.77:9999/tnenvivo.png | Todo Noticias
+https://www.youtube.com/@todonoticias/live
+
+Crónica TV | Noticias | http://181.209.79.77:9999/cronica.png | Crónica TV
+https://www.youtube.com/@cronicatv/live
+
+C5N | Noticias | http://181.209.79.77:9999/c5n.png | C5N
+https://www.youtube.com/@c5n/live
+
+A24com | Noticias | http://181.209.79.77:9999/a24.png | A24com
+https://www.youtube.com/@A24com/live
+
+Telefe Noticias | Noticias | http://181.209.79.77:9999/telefenoticias.png | Telefe Noticias
+https://www.youtube.com/@Telefenoticias/live
+
+Argentina 12 | Noticias | http://181.209.79.77:9999/ar12.png | Argentina 12
+https://www.youtube.com/@Argentina12ok/live
+
+DW Español | Noticias Internacionales | http://181.209.79.77:9999/dw.png | DW Español
+https://www.youtube.com/@dwespanol/live
+
+France 24 Español | Noticias Internacionales | http://181.209.79.77:9999/france24.png | FRANCE 24 Español
+https://www.youtube.com/@France24_es/live
+
+Euronews (en español) | Noticias Internacionales | http://181.209.79.77:9999/euronews.png | euronews (en español)
+https://www.youtube.com/@euronewses/live
+
+RTVE Noticias | Noticias Internacionales | http://181.209.79.77:9999/rtve.png | RTVE Noticias
+https://www.youtube.com/@rtvenoticias/live
+
+TVN Chile - 24Horas | Noticias Internacionales | http://181.209.79.77:9999/24h.png | 24 Horas - TVN Chile
+https://www.youtube.com/@24Horas_TVNChile/live
+
+Romance  Channel | Peliculas | http://181.209.79.77:9999/romance.png | Romance  Channel
+https://www.youtube.com/@RomanceChannel/live
+

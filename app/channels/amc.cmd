@@ -1,0 +1,1 @@
+ffmpeg -i "https://amc-amcespanol-1-us.vizio.wurl.tv/playlist.m3u8" -c copy -f hls -hls_time 2 -hls_list_size 10 -hls_delete_threshold 3 -hls_flags delete_segments+independent_segments -hls_segment_filename __SEGMENT_PATTERN__ __PLAYLIST__
