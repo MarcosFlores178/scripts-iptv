@@ -1,22 +1,67 @@
 {
   "youtube_streams": [
     {
+      "channel_name": "disney",
+      "stream_name": "youtube_disney",
+      "link_file": "/opt/iptv/links/disney.txt",
+      "display_name": "Disney",
+      "group": "Infantiles",
+      "logo": "http://181.209.79.77:9999/disney.png",
+      "tvg_id": "Disney"
+    },
+    {
+      "channel_name": "nick_jr",
+      "stream_name": "youtube_nick_jr",
+      "link_file": "/opt/iptv/links/nick_jr.txt",
+      "display_name": "Nick Jr.",
+      "group": "Infantiles",
+      "logo": "http://181.209.79.77:9999/nickjr.png",
+      "tvg_id": "Nick Jr."
+    },
+    {
+      "channel_name": "disney_jr",
+      "stream_name": "youtube_disney_jr",
+      "link_file": "/opt/iptv/links/disney_jr.txt",
+      "display_name": "Disney Jr.",
+      "group": "Infantiles",
+      "logo": "http://181.209.79.77:9999/disneyjr.png",
+      "tvg_id": "Disney Jr."
+    },
+    {
+      "channel_name": "quiero_musica_tv",
+      "stream_name": "youtube_quiero_musica_tv",
+      "link_file": "/opt/iptv/links/quiero_musica_tv.txt",
+      "display_name": "Quiero Música TV",
+      "group": "Musica",
+      "logo": "http://181.209.79.77:9999/quiero-hd.png",
+      "tvg_id": "Quiero Música TV"
+    },
+    {
       "channel_name": "tv_publica",
       "stream_name": "youtube_tv_publica",
       "link_file": "/opt/iptv/links/tv_publica.txt",
       "display_name": "TV Publica",
       "group": "Nacionales",
-      "logo": "http://181.209.79.77:9999/tvpublica.webp",
+      "logo": "http://181.209.79.77:9999/tvpublica.png",
       "tvg_id": "TV Publica"
     },
     {
-      "channel_name": "todo_noticias",
-      "stream_name": "youtube_todo_noticias",
-      "link_file": "/opt/iptv/links/todo_noticias.txt",
-      "display_name": "Todo Noticias",
-      "group": "Noticias",
-      "logo": "http://181.209.79.77:9999/tnenvivo.webp",
-      "tvg_id": "Todo Noticias"
+      "channel_name": "telefe_streams",
+      "stream_name": "youtube_telefe_streams",
+      "link_file": "/opt/iptv/links/telefe_streams.txt",
+      "display_name": "Telefe Streams",
+      "group": "Nacionales",
+      "logo": "http://181.209.79.77:9999/telefestreams.png",
+      "tvg_id": "Telefe Streams"
+    },
+    {
+      "channel_name": "canal_8_san_juan",
+      "stream_name": "youtube_canal_8_san_juan",
+      "link_file": "/opt/iptv/links/canal_8_san_juan.txt",
+      "display_name": "Canal 8 San Juan",
+      "group": "Nacionales",
+      "logo": "http://181.209.79.77:9999/canal8.png",
+      "tvg_id": "Canal 8 San Juan"
     },
     {
       "channel_name": "canal_doce",
@@ -24,7 +69,7 @@
       "link_file": "/opt/iptv/links/canal_doce.txt",
       "display_name": "Canal Doce",
       "group": "Nacionales",
-      "logo": "http://181.209.79.77:9999/eldoce.webp",
+      "logo": "http://181.209.79.77:9999/eldoce.png",
       "tvg_id": "eldoce"
     },
     {
@@ -33,8 +78,152 @@
       "link_file": "/opt/iptv/links/canal_de_la_ciudad.txt",
       "display_name": "Canal de la Ciudad",
       "group": "Nacionales",
-      "logo": "http://181.209.79.77:9999/canaldelaciudad.webp",
+      "logo": "http://181.209.79.77:9999/canaldelaciudad.png",
       "tvg_id": "Canal de la Ciudad"
+    },
+    {
+      "channel_name": "la_nacion_mas",
+      "stream_name": "youtube_la_nacion_mas",
+      "link_file": "/opt/iptv/links/la_nacion_mas.txt",
+      "display_name": "La Nación Más",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/lanacionmas.png",
+      "tvg_id": "LA NACION"
+    },
+    {
+      "channel_name": "cnn_en_espanol",
+      "stream_name": "youtube_cnn_en_espanol",
+      "link_file": "/opt/iptv/links/cnn_en_espanol.txt",
+      "display_name": "CNN en Español",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/cnnesp.png",
+      "tvg_id": "CNN en Español"
+    },
+    {
+      "channel_name": "canal_26",
+      "stream_name": "youtube_canal_26",
+      "link_file": "/opt/iptv/links/canal_26.txt",
+      "display_name": "Canal 26",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/canal26.png",
+      "tvg_id": "Canal 26"
+    },
+    {
+      "channel_name": "telesur",
+      "stream_name": "youtube_telesur",
+      "link_file": "/opt/iptv/links/telesur.txt",
+      "display_name": "TELESUR",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/telesur.png",
+      "tvg_id": "TELESUR"
+    },
+    {
+      "channel_name": "todo_noticias",
+      "stream_name": "youtube_todo_noticias",
+      "link_file": "/opt/iptv/links/todo_noticias.txt",
+      "display_name": "Todo Noticias",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/tnenvivo.png",
+      "tvg_id": "Todo Noticias"
+    },
+    {
+      "channel_name": "cronica_tv",
+      "stream_name": "youtube_cronica_tv",
+      "link_file": "/opt/iptv/links/cronica_tv.txt",
+      "display_name": "Crónica TV",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/cronica.png",
+      "tvg_id": "Crónica TV"
+    },
+    {
+      "channel_name": "c5n",
+      "stream_name": "youtube_c5n",
+      "link_file": "/opt/iptv/links/c5n.txt",
+      "display_name": "C5N",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/c5n.png",
+      "tvg_id": "C5N"
+    },
+    {
+      "channel_name": "a24com",
+      "stream_name": "youtube_a24com",
+      "link_file": "/opt/iptv/links/a24com.txt",
+      "display_name": "A24com",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/a24.png",
+      "tvg_id": "A24com"
+    },
+    {
+      "channel_name": "telefe_noticias",
+      "stream_name": "youtube_telefe_noticias",
+      "link_file": "/opt/iptv/links/telefe_noticias.txt",
+      "display_name": "Telefe Noticias",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/telefenoticias.png",
+      "tvg_id": "Telefe Noticias"
+    },
+    {
+      "channel_name": "argentina_12",
+      "stream_name": "youtube_argentina_12",
+      "link_file": "/opt/iptv/links/argentina_12.txt",
+      "display_name": "Argentina 12",
+      "group": "Noticias",
+      "logo": "http://181.209.79.77:9999/ar12.png",
+      "tvg_id": "Argentina 12"
+    },
+    {
+      "channel_name": "dw_espanol",
+      "stream_name": "youtube_dw_espanol",
+      "link_file": "/opt/iptv/links/dw_espanol.txt",
+      "display_name": "DW Español",
+      "group": "Noticias Internacionales",
+      "logo": "http://181.209.79.77:9999/dw.png",
+      "tvg_id": "DW Español"
+    },
+    {
+      "channel_name": "france_24_espanol",
+      "stream_name": "youtube_france_24_espanol",
+      "link_file": "/opt/iptv/links/france_24_espanol.txt",
+      "display_name": "France 24 Español",
+      "group": "Noticias Internacionales",
+      "logo": "http://181.209.79.77:9999/france24.png",
+      "tvg_id": "FRANCE 24 Español"
+    },
+    {
+      "channel_name": "euronews_en_espanol",
+      "stream_name": "youtube_euronews_en_espanol",
+      "link_file": "/opt/iptv/links/euronews_en_espanol.txt",
+      "display_name": "Euronews (en español)",
+      "group": "Noticias Internacionales",
+      "logo": "http://181.209.79.77:9999/euronews.png",
+      "tvg_id": "euronews (en español)"
+    },
+    {
+      "channel_name": "rtve_noticias",
+      "stream_name": "youtube_rtve_noticias",
+      "link_file": "/opt/iptv/links/rtve_noticias.txt",
+      "display_name": "RTVE Noticias",
+      "group": "Noticias Internacionales",
+      "logo": "http://181.209.79.77:9999/rtve.png",
+      "tvg_id": "RTVE Noticias"
+    },
+    {
+      "channel_name": "tvn_chile_24horas",
+      "stream_name": "youtube_tvn_chile_24horas",
+      "link_file": "/opt/iptv/links/tvn_chile_24horas.txt",
+      "display_name": "TVN Chile - 24Horas",
+      "group": "Noticias Internacionales",
+      "logo": "http://181.209.79.77:9999/24h.png",
+      "tvg_id": "24 Horas - TVN Chile"
+    },
+    {
+      "channel_name": "romance_channel",
+      "stream_name": "youtube_romance_channel",
+      "link_file": "/opt/iptv/links/romance_channel.txt",
+      "display_name": "Romance  Channel",
+      "group": "Peliculas",
+      "logo": "http://181.209.79.77:9999/romance.png",
+      "tvg_id": "Romance  Channel"
     }
   ]
 }
